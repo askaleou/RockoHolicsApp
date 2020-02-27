@@ -9,7 +9,7 @@ namespace RockoHolicsApp.Models
         [Display(Name = "Email")]
         public string Email { get; set; }
     }
-
+    
     public class ExternalLoginListViewModel
     {
         public string ReturnUrl { get; set; }
